@@ -92,7 +92,9 @@ function standard() {
 				// tl.to(".frame2", {duration:.2, opacity:0}, `+=${read.frame2}`)
 			}
 
-	tl.add(fader(".frame3", read.frame3), "+=.3");
+	tl.from(".frame3a", { duration: .2, opacity: 0 }, "+=.1");
+	tl.from(".frame3b", { duration: .2, opacity: 0 }, "+=2.2");
+	tl.to([".frame3a", '.frame3b'], { duration: .2, opacity: 0 }, "+=1.5");
 
 	tl.from([".frame4", ".footer"], { duration: .2, opacity: 0 }, "+=.3");
 	tl.from(".cta", { duration: .2, opacity: 0 }, "+=.8");
