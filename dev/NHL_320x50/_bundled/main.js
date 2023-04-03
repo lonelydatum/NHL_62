@@ -73,7 +73,7 @@ function standard() {
 	var frame1 = arguments.length <= 0 || arguments[0] === undefined ? sliderSlant : arguments[0];
 
 	var tl = init();
-	tl.from(".proline1", { duration: .2, opacity: 0 }, "+=.2");
+	// tl.from(".proline1", {duration:.2, opacity:0}, "+=.2")
 	tl.to(".proline1", { duration: .2, opacity: 0 }, "+=.8");
 
 	tl.add(frame1());

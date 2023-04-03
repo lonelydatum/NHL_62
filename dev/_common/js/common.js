@@ -58,7 +58,7 @@ function sliderVertical(){
 function standard(frame1=sliderSlant){	
 	
 	const tl = init()	
-	tl.from(".proline1", {duration:.2, opacity:0}, "+=.2")
+	// tl.from(".proline1", {duration:.2, opacity:0}, "+=.2")
 	tl.to(".proline1", {duration:.2, opacity:0}, "+=.8")
 
 	
