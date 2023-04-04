@@ -81,10 +81,9 @@ function standard(frame1=sliderSlant){
 	}
 	
 
+	tl.add(fader(".frame3a", 2.4), "+=.1")
+	tl.add(fader(".frame3b", 1.9), "+=.1")
 	
-	tl.from(".frame3a", {duration:.2, opacity:0}, "+=.1")
-	tl.from(".frame3b", {duration:.2, opacity:0}, "+=2.2")
-	tl.to([".frame3a", '.frame3b'], {duration:.2, opacity:0}, "+=1.5")
 	
 
 
